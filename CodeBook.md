@@ -27,15 +27,15 @@ After setting the source directory for the files, read the following data files 
 
 Assign appropriate column names to some tables and merge to create one data set called "all_data".
 
-## Step 2. Extract only the measurements on the mean and standard deviation for each measurement. 
+### Step 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 From the data set "all_data", subset columns whose name contains "mean" or "std".
 Merge these columns with the columns "subject_id" and "activity_id" to get a new data set called "sub_data".
 
-## Step 3. Use descriptive activity names to name the activities in the data set
+### Step 3. Use descriptive activity names to name the activities in the data set
 Replace all the activity ids with corresponding activity types showed in the dataset "activity_labels".
 
-## Step 4. Appropriately label the data set with descriptive activity names.
+### Step 4. Appropriately label the data set with descriptive activity names.
 Use gsub function for pattern replacement to clean up the data labels.
 
-## Step 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+### Step 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 Create only a data set with the average of each veriable for each activity and subject.
