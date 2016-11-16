@@ -13,10 +13,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ##How to use this R script:
 
 There are 5 files in this repo:
-1.README.md
-2.CodeBook.md--which describes the variables, the data, and transformations or work that I performed to clean up the data
-3.run_analysis.R--script for performing the data cleaning analysis
-4.tidy_data_set--The result tidy data set
+###1.README.md
+###2.CodeBook.md--which describes the variables, the data, and transformations or work that I performed to clean up the data
+###3.run_analysis.R--script for performing the data cleaning analysis
+###4.tidy_data_set--The result tidy data set
 
 Once you have obtained and unzipped the source files, you need to set the path of the working directory to relect the location of the source files in your own directory.
 
